@@ -11,13 +11,13 @@ Then you may need to add your user to the video group:
 sudo usermod -a -G video <username>
 ```
 
-Log out and log in. Make sure you have set up your device on number 3 o change it into the code:
+Log out and log in. Make sure you have set up your device on number 3 o change it in the code:
 
 ```
 sudo modprobe v4l2loopback video_nr=3
 ```
 
-Chech with:
+Check with:
 ```
 vv4l2-ctl --list-devices
 ```
